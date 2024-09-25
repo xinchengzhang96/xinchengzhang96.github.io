@@ -13,19 +13,32 @@
                max-width: 800px;
                margin: auto;
            }
-           h1 {
-               color: #333;
-           }
-           .section {
-               margin-bottom: 20px;
-           }
+           header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            overflow: hidden; /* Clearfix */
+        }
+        .header-text {
+            float: left;
+            max-width: 60%;
+        }
+        .profile-photo {
+            float: right;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        h1, h2 { color: #2c3e50; }
+        .section { margin-bottom: 30px; clear: both; }
        </style>
    </head>
    <body>
        <header>
            <h1>Xincheng Zhang</h1>
        </header>
-      <img src="photo1.jpg" alt="Xincheng" class="profile-photo">
+      <img src="photo2.jpg" alt="Xincheng" class="profile-photo">
        
        <section class="section">
            <h2>About Me</h2>
